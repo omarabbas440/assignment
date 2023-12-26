@@ -1,0 +1,86 @@
+<html>
+
+<head></head>
+<!-- 
+    r   g    b
+    ff  00   00
+    0123456789abcdef
+ -->
+
+<body style="background-color: #09c;" >
+    <form>
+        <!-- 
+          userName=omer
+           userLastName= mohmed
+           userAge= 23
+
+           userName=omer&userLastName=mohamed&userAge=23
+         -->
+        <h2>Register Now</h2>
+
+        <label for="cntry"> your country</label>
+        <select id="cntry" name="country">
+            <option value="eg">egypt</option>
+            <option value="su">sudan</option>
+            <option selected value="mo">moracco</option>
+            <option value="lb">lebia</option>
+            <option value="pl">palastine</option>
+            <option value="egy">egypt</option>
+        </select>
+        <br><br>
+
+        <label for="userName">Frist name :</label>
+        <input id="userName" required type="text" value="fgehdjg" name="userName">*<br><br>
+
+        <label for="userLastName">Last name :</label>
+        <input id="userLastName" minlength="3" maxlength="10" type="text" name="userLastName"><br><br>
+
+        <label for="userAge">Age</label>
+        <input id="userAge" min="18" max="50" type="number" name="userAge"><br><br>
+
+        <label for="userEmail">Email :</label>
+        <input id="userEmail" type="email" name="userEmail" /><br><br>
+
+        <label for="userPassword">password</label>
+        <input id="userPassword" type="password" name="userPassword"><br><br>
+
+        <h4>gender</h4>
+        <label for="usermale">male</label>
+        <input id="usermale" type="radio" name="gender" value="0">
+
+        <label for="userFemale">Female</label>
+        <input id="userFemale" type="radio" name="gender" value="1">
+        <br><br>
+
+        <h4>Skills</h4>
+        <label for="">java Script</label>
+        <input type="checkbox" name="lang" value="Js"><br><br>
+        <label for="">c#</label>
+        <input type="checkbox" name="lang" value="c#"><br><br>
+        <label for="">Python</label>
+        <input type="checkbox" name="lang" value="P"><br><br>
+        <label for="">c++</label>
+        <input type="checkbox" name="lang" value="c++"><br><br>
+
+        <label for="">profile picture </label>
+        <input type="file" multiple accept="image/*"><br><br>
+
+        <label for="">color </label>
+        <input type="color" name="clr" ><br><br>
+        <label for="">color </label>
+        <input type="date" name="clr" ><br><br>
+
+
+        <textarea placeholder="enter your message" rows="7" cols="50" >
+
+        </textarea>
+        
+
+        <br><br>
+        <button  type="submit">Register</button>
+        <button type="reset">Reset</button>
+    </form>
+
+</body>
+
+</html>
